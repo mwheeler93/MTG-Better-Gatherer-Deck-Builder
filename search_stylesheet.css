@@ -8,13 +8,24 @@
 
 body {
   background-color: lightblue;
+  height: 100vh;
 }
 
 .framing {
   background-color: darkcyan;
-  size: 100%;
 }
 
-#selector_box {
+.break {
+  height: .3vh;
+}
+
+#filter_box {
   background-color: darkslategray;
+  height: 100%;
+  width: 15%;
+  border-style: solid;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 150%;
+  font-weight: bolder;
+  text-align: center;
 }
